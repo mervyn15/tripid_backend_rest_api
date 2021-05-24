@@ -1,24 +1,23 @@
 {
   "development": {
     "username": "root",
-    "password": null,
-    "database": "coderawesome_tut_api",
+    "password": "remote",
+    "database": "mapua",
     "host": "127.0.0.1",
-    "dialect": "mysql",
-    "operatorsAliases": false
+    "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": null,
-    "database": "database_test",
+    "password": "remote",
+    "database": "sakila",
     "host": "127.0.0.1",
     "dialect": "mysql",
     "operatorsAliases": false
   },
   "production": {
     "username": "root",
-    "password": null,
-    "database": "database_production",
+    "password": "remote",
+    "database": "sakila",
     "host": "127.0.0.1",
     "dialect": "mysql",
     "operatorsAliases": false

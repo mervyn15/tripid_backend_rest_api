@@ -25,7 +25,7 @@ function save(req, res){
             errors: validationResponse
         });
     }
-    
+     
     models.Post.create(post).then(result => {
         res.status(201).json({
             message: "Post created successfully",
